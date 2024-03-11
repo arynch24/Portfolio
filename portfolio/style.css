@@ -1,0 +1,399 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.box-1 {
+    background-color: black;
+    position: relative;
+    height: 894px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header {
+    position: fixed;
+    height: 91px;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: black;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin: 0px 71px;
+    padding: 0px 15px;
+
+
+
+}
+
+.nav-textt {
+    display: flex;
+    justify-content: right;
+    gap: 26px;
+    margin-right: 50px;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-text:hover {
+    color: #C49B66;
+}
+
+.nav-logo {
+    height: 75px;
+    width: 300px;
+}
+
+.sign-logo {
+    position: relative;
+    background-image: url(signature.png);
+    background-size: cover;
+    margin-left: -80px;
+    margin-top: 10px;
+    height: 75px;
+    width: 300px;
+}
+
+.box-1-row {
+    height: 261px;
+    width: 1140px;
+    margin-top: 310px;
+    color: white;
+    text-align: center;
+
+}
+
+.welcome {
+    height: 84px;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.i-am {
+    height: 84px;
+    font-size: 70px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.social-bar {
+    height: 19px;
+    width: 233px;
+    margin: 35px 0px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgba(200, 200, 200, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 437px;
+}
+
+.fa-brands {
+    height: 18px;
+    width: 44px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-brands:hover {
+
+    color: #C49B66;
+
+}
+
+
+.box-2 {
+    height: 637px;
+    width: vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161617;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.box-2-aboutme,
+.box-3-portfolio,
+.box-4-edu,
+.box-5-skills,
+.box-6-contact {
+    height: 84px;
+    font-size: 70px;
+    font-weight: 800;
+    opacity: 1.2;
+    width: vw;
+    color: #222;
+    background-color: #161617;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: "Rubik", sans-serif;
+    -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.257);
+    -webkit-text-fill-color: transparent;
+}
+
+
+.about-us {
+    height: 512px;
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-2-image {
+    height: 512px;
+    width: 475px;
+}
+
+.box-2-text {
+    height: 512px;
+    width: 540px;
+    margin-left: 95px;
+    padding: 0px 15px;
+    color: white;
+    padding-top: 50px;
+}
+
+h4,
+h5,
+h6 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+
+}
+
+h4 {
+    width: 280px;
+    font-size: 30px;
+    background-color: #C49B66;
+    margin-bottom: 40px;
+    padding: 7px 10px 3px 10px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #8f8f8f;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.cv,
+.hire-me {
+    margin: 30px 0px;
+    padding: 12px 34px;
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+.cv:hover {
+    background-color: #C49B66;
+}
+
+.hire-me {
+    color: #C49B66;
+    background-color: white;
+}
+
+.hire-me:hover {
+    background-color: #C49B66;
+    color: white;
+}
+
+.box-3-portfolio {
+    background-color: #0F0F0F;
+}
+
+.box-3{
+    height:760px;
+    width:vw;
+    background-color: #0F0F0F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+ 
+}
+.p-1,.p-2,
+.p-3,.p-4,
+.p-5,.p-6{
+    margin: 10px;
+    width:370px;
+    height: 300px;
+}
+
+.box-4{
+    height:700px;
+    width:vw;
+    background-color:#161617;
+}
+
+.box-5-skills{
+    background-color: #0F0F0F;
+    
+}
+
+.box-5{
+    height: 600px;
+    width:vw;
+    background-color: #0F0F0F;
+
+}
+
+.box-6{
+    height:580px;
+    width:vw;
+    background-color:#161617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details{
+    height:300px;
+    width: 500px;
+    padding:70px 15px 0px 70px;
+    background-image: url(map.png);
+    background-size:contain;
+   
+}
+
+div.cont-deta{
+    color:#C49B66;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 5px;
+}
+
+p.desc{
+    margin-bottom: 25px;
+}
+.contact-form{
+    height:354px;
+    width:635px;
+    padding-right:  60px;
+    font-family: "Rubik", sans-serif;
+    color: #8f8f8f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+.name ,.email ,.message,.subject{
+    font-family: "Rubik", sans-serif;
+    color: #8f8f8f;
+    border-radius: 30px;
+    background-color: #222;
+}
+
+
+
+.name, .email{
+    width:270px;
+    height:48px;
+    padding: 0px 15px;
+    margin-bottom:16px;
+}
+
+.subject{
+    width:635px;
+    height:48px;
+    padding: 0px 15px;
+    margin-bottom:16px;
+}
+
+.message{
+    width:635px;
+    height:160px;
+    padding: 0px 15px;
+    margin-bottom:16px;
+}
+.name_, .email_, .subject_, .message_{
+background-color: transparent;
+border-color:transparent;
+font-family: "Rubik", sans-serif;
+padding: 15px;
+width:250px;
+color: white;
+font-size: 14px;
+}
+.message_{
+    width:570px;
+}
+input[type=text]:focus {
+    outline:none;
+    color: white;
+}
+
+.mess-button{
+    width:164px;
+    height:44px;
+    border-radius: 30px;
+    background-color: #C49B66;
+    margin-left: 470px;
+    margin-right: 10px;
+}
+.mess-button_{
+    color:white;
+    background-color: transparent;
+    padding: 12px 28px;
+    border-color: transparent;
+font-size: 14px;
+
+
+
+}
+
+
+
+.last{
+    height:50px;
+    background-color: #0F0F0F;
+    color:#8f8f8f;
+    padding-left: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    align-items: center;
+}
