@@ -89,6 +89,13 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
+.social-bar-box {
+    height: 19px;
+    width: vw;
+    display: flex;
+    justify-content: center;
+
+}
 
 .social-bar {
     height: 19px;
@@ -101,7 +108,6 @@
     justify-content: center;
     align-items: center;
     font-size: 14px;
-    margin-left: 437px;
 }
 
 .fa-brands {
@@ -213,7 +219,7 @@ p {
 
 .cv,
 .hire-me {
-    margin: 30px 0px;
+    margin: 30px 15px 30px 0px;
     padding: 12px 34px;
     background-color: transparent;
     border-radius: 30px;
@@ -241,87 +247,204 @@ p {
     background-color: #0F0F0F;
 }
 
-.box-3{
-    height:760px;
-    width:vw;
+.box-3 {
+    height: 760px;
+    width: vw;
     background-color: #0F0F0F;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items:center;
- 
+    align-items: center;
+
 }
-.p-1,.p-2,
-.p-3,.p-4,
-.p-5,.p-6{
+
+.p-1,
+.p-2,
+.p-3,
+.p-4,
+.p-5,
+.p-6 {
     margin: 10px;
-    width:370px;
+    width: 370px;
     height: 300px;
 }
 
-.box-4{
-    height:700px;
-    width:vw;
-    background-color:#161617;
+.box-4 {
+    height: 700px;
+    width: vw;
+    background-color: #161617;
 }
 
-.box-5-skills{
+.box-5-skills {
     background-color: #0F0F0F;
-    
+
 }
 
-.box-5{
+.box-5 {
     height: 600px;
-    width:vw;
+    width: vw;
     background-color: #0F0F0F;
-
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 
-.box-6{
-    height:580px;
-    width:vw;
-    background-color:#161617;
+.tech-row {
+    height: 150px;
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.html,
+.css,
+.js,
+.mysql,
+.python,
+.excel,
+.c {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 0.375rem;
+    color: white;
+    height: 36px;
+    width: 240px;
+    font-size: 14px;
+    padding: 12px;
+    background-color: #ffffff0a;
+}
+
+.html-logo-box,
+.css-logo-box,
+.js-logo-box,
+.mysql-logo-box,
+.python-logo-box,
+.excel-logo-box,
+.c-logo-box  {
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+}
+.html-logo-box{
+    background-color: #dd4b2526;
+}
+.css-logo-box{
+    background-color:#264de426 ;
+}
+.js-logo-box{
+    background-color: #f0db4f26;
+}
+.mysql-logo-box{
+    background-color: rgb(53, 82, 81);
+}
+.python-logo-box{
+    background-color:rgba(24, 57, 101, 0.534) ;
+}
+.excel-logo-box{
+    background-color: rgb(40, 59, 46);
+}
+.c-logo-box{
+    background-color:rgba(56, 85, 107, 0.351) ;
+}
+
+.html-logo,
+.css-logo,
+.js-logo,
+.mysql-logo,
+.python-logo,
+.excel-logo,
+.c-logo {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+}
+
+.html-logo {
+    background-image: url(html.png);
+}
+
+.css-logo {
+    background-image: url(css.png);
+}
+
+.js-logo {
+    background-image: url(js.png);
+}
+
+.mysql-logo {
+    background-image: url(mysql.png);
+}
+
+.python-logo {
+    background-image: url(python.png);
+}
+
+.excel-logo {
+    background-image: url(excel.png);
+}
+
+.c-logo {
+    background-image: url(c++.png);
+}
+
+
+.box-6 {
+    height: 580px;
+    width: vw;
+    background-color: #161617;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-details{
-    height:300px;
+.contact-details {
+    height: 300px;
     width: 500px;
-    padding:70px 15px 0px 70px;
+    padding: 70px 15px 0px 70px;
     background-image: url(map.png);
-    background-size:contain;
-   
+    background-size: contain;
+
 }
 
-div.cont-deta{
-    color:#C49B66;
+div.cont-deta {
+    color: #C49B66;
     letter-spacing: 3px;
     font-size: 11px;
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 5px;
 }
 
-p.desc{
+p.desc {
     margin-bottom: 25px;
 }
-.contact-form{
-    height:354px;
-    width:635px;
-    padding-right:  60px;
+
+.contact-form {
+    height: 354px;
+    width: 635px;
+    padding-right: 60px;
     font-family: "Rubik", sans-serif;
     color: #8f8f8f;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-    
+
+
 
 }
 
 
-.name ,.email ,.message,.subject{
+.name,
+.email,
+.message,
+.subject {
     font-family: "Rubik", sans-serif;
     color: #8f8f8f;
     border-radius: 30px;
@@ -330,57 +453,65 @@ p.desc{
 
 
 
-.name, .email{
-    width:270px;
-    height:48px;
+.name,
+.email {
+    width: 270px;
+    height: 48px;
     padding: 0px 15px;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
 
-.subject{
-    width:635px;
-    height:48px;
+.subject {
+    width: 635px;
+    height: 48px;
     padding: 0px 15px;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
 
-.message{
-    width:635px;
-    height:160px;
+.message {
+    width: 635px;
+    height: 160px;
     padding: 0px 15px;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
-.name_, .email_, .subject_, .message_{
-background-color: transparent;
-border-color:transparent;
-font-family: "Rubik", sans-serif;
-padding: 15px;
-width:250px;
-color: white;
-font-size: 14px;
+
+.name_,
+.email_,
+.subject_,
+.message_ {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: "Rubik", sans-serif;
+    padding: 15px;
+    width: 250px;
+    color: white;
+    font-size: 14px;
 }
-.message_{
-    width:570px;
+
+.message_ {
+    width: 570px;
 }
+
 input[type=text]:focus {
-    outline:none;
+    outline: none;
     color: white;
 }
 
-.mess-button{
-    width:164px;
-    height:44px;
+.mess-button {
+    width: 164px;
+    height: 44px;
     border-radius: 30px;
     background-color: #C49B66;
     margin-left: 470px;
     margin-right: 10px;
 }
-.mess-button_{
-    color:white;
+
+.mess-button_ {
+    color: white;
     background-color: transparent;
     padding: 12px 28px;
     border-color: transparent;
-font-size: 14px;
+    font-size: 14px;
 
 
 
@@ -388,10 +519,10 @@ font-size: 14px;
 
 
 
-.last{
-    height:50px;
+.last {
+    height: 50px;
     background-color: #0F0F0F;
-    color:#8f8f8f;
+    color: #8f8f8f;
     padding-left: 20px;
     font-family: "Josefin Sans", sans-serif;
     display: flex;
