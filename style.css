@@ -20,6 +20,8 @@
     width: 100%;
     padding: 8px 16px;
     background-color: black;
+    z-index: 4;
+    opacity: 90%;
 }
 
 .nav {
@@ -37,6 +39,8 @@
     margin-right: 50px;
     align-items: center;
     font-size: 14px;
+    
+
 }
 
 .nav-text {
@@ -46,6 +50,7 @@
 
 .nav-text:hover {
     color: #C49B66;
+   
 }
 
 .nav-logo {
@@ -244,13 +249,14 @@ p {
 }
 
 .box-3 {
-    height: 760px;
+    height: 560px;
     width: vw;
     background-color: #0F0F0F;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    padding: 100px 0px;
 }
 
 .p-1,
@@ -260,8 +266,46 @@ p {
 .p-5,
 .p-6 {
     margin: 10px;
-    width: 370px;
-    height: 300px;
+    width: 360px;
+    height: 270px;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    opacity: 60%;
+}
+
+.p-1:hover,
+.p-2:hover,
+.p-3:hover,
+.p-4:hover,
+.p-5:hover,
+.p-6:hover {
+    opacity: 100%;
+}
+
+
+.p-1 {
+    background-image: url(1.jpg);
+}
+
+.p-2 {
+    background-image: url(2.jpg);
+}
+
+.p-3 {
+    background-image: url(3.jpg);
+}
+
+.p-4 {
+    background-image: url(4.png);
+}
+
+.p-5 {
+    background-image: url(5.png);
+}
+
+.p-6 {
+    background-image: url(6.jpg);
 }
 
 /* education */
@@ -272,84 +316,91 @@ p {
     background-color: #161617;
     display: flex;
     justify-content: center;
+   
     
 }
 
-.journey{
+.journey {
     padding-top: 120px;
-    width:1140px;
-    height:300px;
+    width: 1140px;
+    height: 300px;
 }
-.hr-line{
-    height:30px;
-    width:1140px;
+
+.hr-line {
+    height: 30px;
+    width: 1140px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
-.parts{
-    height:30px;
-    width:265px;
+
+.parts {
+    height: 30px;
+    width: 265px;
     margin-top: 30px;
-   
+
 }
 
-hr{
-    
-    border-style:solid;
-    border-width:0.75px;
+hr {
+    border-style: solid;
+    border-width: 0.75px;
     color: white;
-   
+
 }
 
-.dot{
+.dot {
     height: 15px;
     width: 15px;
     border-radius: 50%;
     border: 1px #6e4a1ada;
-    background-color:#8a6d48 ;
+    background-color: #8a6d48;
 }
 
-.dot:hover{
+.hr-line:hover .dot{
     box-shadow: 0px 0px 6px 6px #c393544a;
 }
 
-.edu-line-1, .edu-line-2{
-    height:100px;
-    width:1140px;
+
+.edu-line-1,
+.edu-line-2 {
+    height: 100px;
+    width: 1140px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.card{
-    height:60px;
-    width:208px;
-    border:1px solid black ;
+.card {
+    height: 60px;
+    width: 208px;
+    border: 1px solid black;
     padding: 10px;
-    background-color:rgba(0, 0, 0, 0.731);
+    background-color: rgba(0, 0, 0, 0.731);
     line-height: 22px;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0px 0px 8px 01px #563d1e;
 }
 
 
-.card-head, .card-desc{
+.card-head,
+.card-desc {
     color: rgba(255, 255, 255, 0.844);
     font-family: "Josefin Sans", sans-serif;
 
 }
-.card-head{
-    font-size: 22px;
+
+.card-head {
+    font-size: 18px;
 }
 .card-desc{
-    
+    font-size: 14px;
 }
-
-
+p.year{
+    font-size: 12px
+}
 
 /* skills */
 
@@ -359,7 +410,7 @@ hr{
 }
 
 .box-5 {
-    height:500px;
+    height: 500px;
     width: vw;
     background-color: #0F0F0F;
     display: flex;
