@@ -426,7 +426,7 @@ p.year {
 
 .tech-row {
     /* heiight change of the tech row */
-    height: 150px; 
+    height: 275px; 
     width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -719,6 +719,13 @@ input[type=text]:focus {
     padding: 12px 28px;
     border-color: transparent;
     font-size: 14px;
+}
+
+.mess-button:hover {
+    background-color: #ffffff;
+}
+.mess-button_:hover{
+    color:#C49B66;
 }
 
 .last {
