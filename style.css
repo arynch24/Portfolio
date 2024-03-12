@@ -39,7 +39,7 @@
     margin-right: 50px;
     align-items: center;
     font-size: 14px;
-    
+
 
 }
 
@@ -50,7 +50,7 @@
 
 .nav-text:hover {
     color: #C49B66;
-   
+
 }
 
 .nav-logo {
@@ -167,7 +167,11 @@
 
 .box-2-image {
     height: 512px;
-    width: 475px;
+    width: 410px;
+    background-image: url(photo.png);
+    background-size: contain;
+    background-position: center;
+    margin: 0px 32.5px;
 }
 
 .box-2-text {
@@ -316,8 +320,8 @@ p {
     background-color: #161617;
     display: flex;
     justify-content: center;
-   
-    
+
+
 }
 
 .journey {
@@ -357,7 +361,7 @@ hr {
     background-color: #8a6d48;
 }
 
-.hr-line:hover .dot{
+.hr-line:hover .dot {
     box-shadow: 0px 0px 6px 6px #c393544a;
 }
 
@@ -395,10 +399,12 @@ hr {
 .card-head {
     font-size: 18px;
 }
-.card-desc{
+
+.card-desc {
     font-size: 14px;
 }
-p.year{
+
+p.year {
     font-size: 12px
 }
 
@@ -419,7 +425,17 @@ p.year{
 }
 
 .tech-row {
-    height: 150px;
+    /* heiight change of the tech row */
+    height: 150px; 
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 15px;
+    justify-content: center;
+    align-items: center;
+}
+.row-1,.row-2,.row-3{
+    height: 75px;
     width: 1140px;
     display: flex;
     flex-wrap: wrap;
@@ -435,7 +451,11 @@ p.year{
 .mysql,
 .python,
 .excel,
-.c {
+.c,
+.github,
+.gitbash,
+.notion,
+.vscode {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -455,7 +475,11 @@ p.year{
 .mysql:hover,
 .python:hover,
 .excel:hover,
-.c:hover {
+.c:hover ,
+.github:hover,
+.gitbash:hover,
+.notion:hover,
+.vscode:hover {
     box-shadow: 0px 0px 8px 01px #563d1e;
     background-color: rgba(0, 0, 0, 0.659);
 }
@@ -467,7 +491,11 @@ p.year{
 .mysql-logo-box,
 .python-logo-box,
 .excel-logo-box,
-.c-logo-box {
+.c-logo-box,
+.github-logo-box,
+.gitbash-logo-box,
+.notion-logo-box,
+.vscode-logo-box {
     height: 36px;
     width: 36px;
     display: flex;
@@ -503,6 +531,21 @@ p.year{
 .c-logo-box {
     background-color: rgba(56, 85, 107, 0.351);
 }
+.github-logo-box {
+    background-color: #ffffff14;
+}
+.gitbash-logo-box {
+    background-color: rgba(86, 50, 31, 0.967);
+}
+.vscode-logo-box {
+    background-color: #33abe326;
+}
+.notion-logo-box {
+    background-color: #3636363b;
+}
+
+
+
 
 .html-logo,
 .css-logo,
@@ -510,7 +553,11 @@ p.year{
 .mysql-logo,
 .python-logo,
 .excel-logo,
-.c-logo {
+.c-logo ,
+.github-logo,
+.gitbash-logo,
+.notion-logo,
+.vscode-logo {
     height: 20px;
     width: 20px;
     background-size: cover;
@@ -543,6 +590,23 @@ p.year{
 .c-logo {
     background-image: url(c++.png);
 }
+
+.github-logo {
+    background-image: url(github.png);
+}
+
+.gitbash-logo {
+    background-image: url(gitbash.png);
+}
+
+.vscode-logo {
+    background-image: url(vscode.png);
+}
+
+.notion-logo {
+    background-image: url(notion.png);
+}
+
 
 
 .box-6 {
