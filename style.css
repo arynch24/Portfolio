@@ -275,7 +275,7 @@ p {
     background-size: contain;
     background-position: center;
     background-color: black;
-    opacity: 60%;
+    opacity: 80%;
 }
 
 .p-1:hover,
@@ -289,7 +289,7 @@ p {
 
 
 .p-1 {
-    background-image: url(1.jpg);
+    background-image: url(calculator.png);
 }
 
 .p-2 {
