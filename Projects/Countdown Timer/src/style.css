@@ -1,0 +1,36 @@
+body{
+    background-image: url('../public/bg-image.jpg');
+    background-color: rgb(0, 0, 0);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height:50vh;
+}
+
+#container{
+    text-align: center;
+}
+
+#countdown{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hrs ,#min , #sec , #days {
+    height:80px;
+    width:80px;
+    background-color: rgb(11, 27, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: xx-large;
+}
