@@ -21,7 +21,7 @@ const userInput = document.getElementById("user-input");
 
 // Validate the city input is not empty
 function validateCity(city) {
-    return city !== ''; 
+    return city !== '';
 }
 
 // Function to call the weather API and display data
@@ -31,6 +31,9 @@ async function apiCall() {
 
         // Check if city is valid before making API call
         if (validateCity(city)) {
+
+            userInput.value = "Searching...";
+
             // Fetch weather data from the API
             const response = await fetch(apiURL + city + apiKey);
             const data = await response.json();  // Parse response as JSON
@@ -43,6 +46,7 @@ async function apiCall() {
             humidity.innerHTML = `${data.main.humidity} %`;      // Show humidity
             wind.innerHTML = `${data.wind.speed} km/h`;          // Show wind speed
 
+
             // Display appropriate weather icon based on weather condition
             weatherIconElement.setAttribute("src", `../public/${data.weather[0].main}.png`);
             console.log(weatherIconElement.getAttribute("src"));  // Log icon source for debugging
@@ -50,8 +54,20 @@ async function apiCall() {
         } else {
             console.log("City is empty.");  // Log if city input is empty
         }
+
     } catch (error) {
         console.error("Error fetching weather data:", error.message);  // Handle and log errors
+
+        weatherIconElement.setAttribute("src", `../public/404.png`);
+
+        temperature.innerHTML = ``;
+        cityDisplay.innerHTML = "Invalid City Name!";
+        humidity.innerHTML = `0 %`;
+        wind.innerHTML = `0 km/h`;
+    }
+    finally
+    {
+        userInput.value = ``;
     }
 }
 
